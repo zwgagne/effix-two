@@ -45,7 +45,7 @@ header{
     color: #AF8D55;
 }
 
-/* CSS GRIG */
+/* CSS GRID */
 
 .grid{
     display: grid;
@@ -60,4 +60,8 @@ header{
 .gridNav{
     grid-column: 7 / 12;
     grid-row: 1;
+}
+
+footer{
+    background-color: rgba(23,58, 54) ;
 }
