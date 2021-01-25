@@ -49,8 +49,8 @@ header{
 
 .grid{
     display: grid;
-    grid-template-columns: 46px 77.6px 77.6px 77.6px 77.6px 77.6px 77.6px 77.6px 77.6px 77.6px 77.46px;
-    grid-template-rows: repeat(10, 1fr) ;
+    grid-template-columns: 46px,  ;
+    grid-template-rows:  ;
     gap: 20px;
 }
 .headerTitre{
