@@ -52,14 +52,14 @@ h1{
 
 .grid{
     display: grid;
-    grid-template-columns: 12fr;
+    grid-template-columns: 1024px;
     grid-template-rows: 12fr;
     gap: 20px;
 }
 .container{
     display: grid;
-    grid-template-columns: 46px 77.7px 77.7px 77.7px 77.7px 77.7px 77.7px 77.7px 77.7px 77.7px 77.7px 46px;
-    grid-template-rows: 20px 77.7px 77.7px 77.7px 77.7px 77.7px 77.7px 77.7px 77.7px 77.7px 77.7px 20px;
+    grid-template-columns: 46px 81.2px 81.2px 81.2px 81.2px 81.2px 81.2px 81.2px 81.2px 81.2px 46px;
+    grid-template-rows: 20px 77.7px 77.7px 77.7px 77.7px 77.7px 77.7px 77.7px 77.8px 77.7px 77.7px 20px;
     gap: 20px;
 }
 .headerTitre{
