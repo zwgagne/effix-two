@@ -29,8 +29,48 @@ body{
 }
 
 
-header{
+.headerAccueil{
     background-image: url("/img/effix-header-main.jpg");
+    width: 100%;
+    height: 520px;
+}
+.headerNosServices{
+    background-image: url("/img/nos-services.jpg");
+    width: 100%;
+    height: 520px;
+}
+.headerNosRealisations{
+    background-image: url("/img/nos-realisations.jpg");
+    width: 100%;
+    height: 520px;
+}
+.headerNousContacter{
+    background-image: url("/img/nous-contacter.jpg");
+    width: 100%;
+    height: 520px;
+}
+.headerDevWeb{
+    background-image: url("/img/developpement-web");
+    width: 100%;
+    height: 520px;
+}
+.headerDevLogiciel{
+    background-image: url("/img/developpement-logiciel.jpg");
+    width: 100%;
+    height: 520px;
+}
+.headerImpartition{
+    background-image: url("/img/impartition.jpg");
+    width: 100%;
+    height: 520px;
+}
+.headerGestionProjet{
+    background-image: url("/img/gestion-de-projet.jpg");
+    width: 100%;
+    height: 520px;
+}
+.headerHebergement{
+    background-image: url("/img/effix-hebergement.jpg");
     width: 100%;
     height: 520px;
 }
@@ -66,6 +106,7 @@ h1{
     grid-column: 7 / span 5;
     grid-row: 2;
     align-self: center;
+    padding: ;
 }
 .gridAbout{
     grid-column: 2 / span 5;
@@ -80,4 +121,14 @@ h1{
 footer{
     background-color: rgba(23,58, 54);
     height: 124px;
+}
+
+.logosReseaux{
+    grid-column: 10 / span 4;
+    grid-row: 2;
+    align-self: center;
+}
+
+.logos{
+    padding: 10px;
 }
