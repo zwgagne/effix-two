@@ -1,5 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
-.effix-logo{
+body{
+    margin: 0 auto;
+    font-size: 18px;
+}
+.wrapper{
+    width: 1024px;
+    margin: 0 auto;
+}
+.fontMukta{
     font-family: 'Mukta', sans-serif;
+}
+
+/* Couleur Text */
+
+.textBlanc{
+    color: #ffffff;
+}
+.bold{
+    font-weight: bold;
+}
+
+.titreH1{
+    font-size: 48px;
+}
+.titreH2{
+    font-size: 36px;
+}
+
+
+header{
+    background-image: url("/img/effix-header-main.jpg");
+    width: 100%;
+    height: 520px;
+}
+.navHeader,
+.navHeader:active,
+.navHeader:visited,
+.navHeader:focus{
+    text-decoration: none;
+    color: #ffffff;
+}
+.navHeader:hover{
+    color: #AF8D55;
+}
+
+/* CSS GRIG */
+
+.container{
+    display: grid | inline-grid;
+    grid-template-columns: 40px 50px auto 50px
+    grid-template-columns: 25% 100px auto;
 }
