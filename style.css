@@ -231,6 +231,46 @@ body{
     grid-row: 10 / span 5;
     align-self: center;
 }
+.realisationsArticle1{
+    grid-column: 2 / span 2;
+    grid-row: 3 / span 2;
+}
+.realisationsArticle2{
+    grid-column: 5 / span 2;
+    grid-row: 3 / span 2;
+}
+.realisationsArticle3{
+    grid-column: 8 / span 2;
+    grid-row: 3 / span 2;
+}
+.realisationsArticle4{
+    grid-column: 2 / span 2;
+    grid-row: 9 / span 6;
+}
+.realisationsArticle5{
+    grid-column: 5 / span 2;
+    grid-row: 9 / span 6;
+}
+.realisationsArticle6{
+    grid-column: 8 / span 2;
+    grid-row: 9 / span 5;
+}
+.realisationsArticle7{
+    grid-column: 2 / span 2;
+    grid-row: 15 / span 5;
+}
+.realisationsArticle8{
+    grid-column: 5 / span 2;
+    grid-row: 15 / span 5;
+}
+.realisationsArticle9{
+    grid-column: 8 / span 2;
+    grid-row: 15 / span 5;
+}
+.realisationsArticle10{
+    grid-column: 2 / span 3;
+    grid-row: 21 / span 5;
+}
 
 .hebergementArticle{
     grid-column: 2 / span 3;
