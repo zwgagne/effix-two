@@ -39,19 +39,19 @@
                 </article>
                 <form action="#" class="sub fontMukta bold" method="GET">
                         <label for="userLastName">Nom
-                            <input type="text" class="sub subTextePlaceholder bold" name="userLastName" placeholder="Nom de famille">
+                            <input type="text" id="userLastName" class="sub subTextePlaceholder bold" name="userLastName" placeholder="Nom de famille">
                         </label>
                         <label for="userFirstName">Prénom
-                            <input type="text" class="sub subTextePlaceholder bold" name="userFirstName" placeholder="prénom">
+                            <input type="text" id="userFirstName" class="sub subTextePlaceholder bold" name="userFirstName" placeholder="prénom">
                         </label>
                         <label for="email">Couriel
-                            <input type="email" class="sub subTextePlaceholder bold" name="email" placeholder="example@email.com">
+                            <input type="email" id="email" class="sub subTextePlaceholder bold" name="email" placeholder="example@email.com">
                         </label>
                         <label for="phoneNum">Téléphone
-                            <input type="tel" class="sub subTextePlaceholder bold" name="phoneNom" placeholder="(   ) 123 - 4567">
+                            <input type="tel" id="phoneNum" class="sub subTextePlaceholder bold" name="phoneNum" placeholder="(   ) 123 - 4567">
                         </label>
-                        <label for="userLastName">Service désiré
-                            <select name="service" id="serviceSub" class="sub  subTextePlaceholder bold">
+                        <label for="userService">Service désiré
+                            <select name="service" id="userService" class="sub  subTextePlaceholder bold">
                                 <option value="null">--- Choisir un service ---</option>
                                 <option value="hebergement">Hébergement</option>
                                 <option value="gestionProjet">Gestion de projet</option>
@@ -62,11 +62,10 @@
                             </select>
                         </label>
                         <label for="explication">Explication
-                            <textarea class="sub subTextePlaceholder bold" name="explication" id="expli" cols="50" rows="10" placeholder="Parlez nous en plus de votre projet"></textarea>
+                            <textarea class="sub subTextePlaceholder bold" name="expli" id="explication" cols="50" rows="10" placeholder="Parlez nous en plus de votre projet"></textarea>
                         </label>
                         <button type="submit" class="gold btn3 textBlanc titreH3">Envoyer</button>
                 </form>
-                
             </section>
         </main>
         <footer class="vertFoncé">
