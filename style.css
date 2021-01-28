@@ -301,8 +301,17 @@ footer{
     grid-row: 3 / span 12;
     padding: 8px;
     margin: 10px 0px;
+    
 }
+.userdata{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 350px;
+}
+
 .subTextePlaceholder{
     color: #AF8D55;
     resize: none;
+    border-color: #000000;
 }
