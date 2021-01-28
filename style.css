@@ -104,6 +104,9 @@ body{
     width: 100%;
     height: 520px;
 }
+
+/* Boutton */
+
 .navHeader{
     padding: 17px;
 }
@@ -130,8 +133,6 @@ body{
     background-color: #173A36;
     color: #ffffff;
 }
-
-
 .btn{
     border-radius: 100px;
     border: 0px;
