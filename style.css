@@ -167,7 +167,7 @@ body{
 }
 
 .mainTitre{
-    grid-column: 2 / span 3;
+    grid-column: 2 / span 4;
     grid-row: 2;
     align-self: center;
 }
@@ -260,4 +260,21 @@ footer{
 
 .logos{
     padding: 10px;
+}
+
+.mainHerbergement{
+    grid-column: 2 / 11;
+    grid-row: 3;
+}
+.mainHerbergementDiv{
+    grid-row: 10;
+}
+.mainTitreDev{
+    grid-column: 2 / 11;
+    grid-row: 2;
+}
+
+.nousContacterTitre{
+    grid-column: 8 / span 3;
+    grid-row: 3;
 }
