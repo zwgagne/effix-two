@@ -30,18 +30,45 @@
         <main>
             <section class="container">
                 <article class="nousContacterTitre">
-                    <h2 class="fontMukta titreH2 noMP">Nous contacter</h2>
+                    <h2 class="fontMukta titreH1 noMP">Nous contacter</h2>
                 </article>
-                <article class="mainArticle1">
-                    <h3 class="fontMukta titreH3 noMP">Lorem ipsum</h3>
+                <article class="nousContacterTexte">
                     <p class="fontRoboto">
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam
-                        eget felis eget nunc lobortis mattis aliquam faucibus.
+                        Lorem ipsum adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc lobortis mattis aliquam faucibus.
                     </p>
                 </article>
+                <form action="#" class="sub fontMukta bold" method="GET">
+                        <label for="userLastName">Nom
+                            <input type="text" class="sub subTextePlaceholder bold" name="userLastName" placeholder="Nom de famille">
+                        </label>
+                        <label for="userFirstName">Prénom
+                            <input type="text" class="sub subTextePlaceholder bold" name="userFirstName" placeholder="prénom">
+                        </label>
+                        <label for="email">Couriel
+                            <input type="email" class="sub subTextePlaceholder bold" name="email" placeholder="example@email.com">
+                        </label>
+                        <label for="phoneNum">Téléphone
+                            <input type="tel" class="sub subTextePlaceholder bold" name="phoneNom" placeholder="(   ) 123 - 4567">
+                        </label>
+                        <label for="userLastName">Service désiré
+                            <select name="service" id="serviceSub" class="sub  subTextePlaceholder bold">
+                                <option value="null">--- Choisir un service ---</option>
+                                <option value="hebergement">Hébergement</option>
+                                <option value="gestionProjet">Gestion de projet</option>
+                                <option value="impartition">Impartition</option>
+                                <option value="null">-----------------------------------</option>
+                                <option value="devLogiciel">Développement Logiciel</option>
+                                <option value="devWeb">Développement Web</option>
+                            </select>
+                        </label>
+                        <label for="explication">Explication
+                            <textarea class="sub subTextePlaceholder bold" name="explication" id="expli" cols="50" rows="10" placeholder="Parlez nous en plus de votre projet"></textarea>
+                        </label>
+                        <button type="submit" class="gold btn3 textBlanc titreH3">Envoyer</button>
+                </form>
+                
             </section>
         </main>
-
         <footer class="vertFoncé">
             <section class="container">
                 <article class="footerTitre">
