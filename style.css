@@ -3,7 +3,6 @@ body{
     margin: 0 auto;
     padding: 0px;
     font-size: 18px;
-    
 }
 .wrapper{
     width: 1024px;
@@ -162,7 +161,6 @@ body{
     grid-auto-columns: 81.2px;
     grid-template-rows: 20px;
     grid-auto-rows: 81.2px;
-
 }
 .headerTitre{
     grid-column: 2 / span 3;
@@ -232,6 +230,7 @@ body{
     grid-row: 10 / span 5;
     align-self: center;
 }
+
 .realisationsArticle1{
     grid-column: 2 / span 2;
     grid-row: 3 / span 2;
@@ -350,7 +349,6 @@ footer{
     border-right: none;
     width: 350px;
 }
-
 .subTextePlaceholder{
     color: #AF8D55;
     resize: none;
